@@ -29,5 +29,6 @@ public class CoinController {
         String res=coinService.getMarketChart(coinId,days);
         JsonNode jsonNode=objectMapper.readTree(res);
         return new ResponseEntity<>(jsonNode, HttpStatus.ACCEPTED);
+        //adasrsh
     }
 }
