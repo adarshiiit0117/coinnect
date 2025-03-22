@@ -1,5 +1,6 @@
 package com.coinnect.coinnect.config;
 
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.core.Authentication;
@@ -23,7 +24,12 @@ public class JwtProvider {
              .compact();
          return jwt;
  }
-
+public static String getEmailFromToken(String token){
+     token=token.substring(7);
+    Claims claims= Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token).getBody();
+    String email=String.valueOf(claims.get("email"));
+    return email;
+}
     private static String populateAuthorities(Collection<? extends GrantedAuthority> authorities) {
         Set<String>auth=new HashSet<>();
         for(GrantedAuthority ga:authorities){

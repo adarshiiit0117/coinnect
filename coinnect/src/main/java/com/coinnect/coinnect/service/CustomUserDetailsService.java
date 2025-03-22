@@ -1,4 +1,4 @@
-package com.coinnect.coinnect;
+package com.coinnect.coinnect.service;
 
 import com.coinnect.coinnect.modal.User;
 import com.coinnect.coinnect.repository.UserRepository;
