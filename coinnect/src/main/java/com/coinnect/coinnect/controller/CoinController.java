@@ -2,6 +2,7 @@ package com.coinnect.coinnect.controller;
 
 import com.coinnect.coinnect.modal.Coin;
 import com.coinnect.coinnect.service.CoinService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,35 @@ public class CoinController {
         String res=coinService.getMarketChart(coinId,days);
         JsonNode jsonNode=objectMapper.readTree(res);
         return new ResponseEntity<>(jsonNode, HttpStatus.ACCEPTED);
-        //adasrsh
+
     }
+    @GetMapping("/search")
+    ResponseEntity<JsonNode>searchCoin(@RequestParam("q")String keyword) throws Exception {
+        String coin=coinService.searchCoin(keyword);
+        JsonNode jsonNode=objectMapper.readTree(coin);
+        return ResponseEntity.ok(jsonNode);
+
+    }
+    @GetMapping("/top50")
+    ResponseEntity<JsonNode>getTop50CoinByMarketCapRank() throws Exception {
+        String coin=coinService.getTop50CoinByMarketCapRank();
+        JsonNode jsonNode=objectMapper.readTree(coin);
+        return ResponseEntity.ok(jsonNode);
+
+
+    }
+    @GetMapping("/treading")
+    ResponseEntity<JsonNode> getTreadingCoin() throws Exception {
+        String coin = coinService.getTreadingCoins();
+        JsonNode jsonNode = objectMapper.readTree(coin);
+        return ResponseEntity.ok(jsonNode);
+    }
+    @GetMapping("/details/{coinId}")
+    ResponseEntity<JsonNode> getCoinDetails(@PathVariable String coinId) throws Exception {
+        String coin = coinService.getCoinDetails(coinId);
+        JsonNode jsonNode = objectMapper.readTree(coin);
+
+        return ResponseEntity.ok(jsonNode);
+    }
+
 }
