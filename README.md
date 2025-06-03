@@ -52,6 +52,20 @@ Coinnect is a secure and scalable full-stack cryptocurrency trading platform tha
 - **Razorpay**
 - **Stripe**
 
+###UI SCREENSHOTS
+![2](https://github.com/user-attachments/assets/a550ece0-5cdc-42e8-a4cb-81c625b30628)![Screenshot 2025-06-03 234823](https://github.com/user-attachments/assets/acac8ea6-d2c1-4a7b-8017-fa7b8baa149d)
+![Screenshot 2025-06-03 234830](https://github.com/user-attachments/assets/876b61de-67be-4af4-a9ae-29559ffd60a4)
+![Screenshot 2025-06-03 234847](https://github.com/user-attachments/assets/b6c527a0-a615-4c5e-9353-e8eb081e7a3a)
+![Screenshot 2025-06-03 015205](https://github.com/user-attachments/assets/314af03b-03ba-4e68-b7cc-1c7fc8e5dd07)
+![Screenshot 2025-06-03 015211](https://github.com/user-attachments/assets/c5b7c42c-9481-4a58-b1d9-cd29be67f356)
+![Screenshot 2025-06-03 234653](https://github.com/user-attachments/assets/719a7414-c2bb-462c-849e-f0c6cbb04566)
+![Screenshot 2025-06-03 234720](https://github.com/user-attachments/assets/ca932b96-aeb3-4501-8d1f-1cc9b11210b9)
+![Screenshot 2025-06-03 234733](https://github.com/user-attachments/assets/cf7a8730-66c7-4e23-ab30-932455629f10)
+![Screenshot 2025-06-03 234817](https://github.com/user-attachments/assets/948a201a-3a34-4d45-8b7a-600683abb068)
+![image](https://github.com/user-attachments/assets/1e1f836e-3c52-48cb-890d-3ef0995f674a)
+![image](https://github.com/user-attachments/assets/a496a148-6ee1-452b-a79c-2b5ab0a0d38a)
+![image](https://github.com/user-attachments/assets/a94cc949-6672-4f09-801f-1adb7d3a3b24)
+
 ---
 
 ## 📁 Project Structure
@@ -94,18 +108,6 @@ coinnect/
 │ ├── tailwind.config.js
 │ ├── package.json
 │ └── .env
-![2](https://github.com/user-attachments/assets/a550ece0-5cdc-42e8-a4cb-81c625b30628)![Screenshot 2025-06-03 234823](https://github.com/user-attachments/assets/acac8ea6-d2c1-4a7b-8017-fa7b8baa149d)
-![Screenshot 2025-06-03 234830](https://github.com/user-attachments/assets/876b61de-67be-4af4-a9ae-29559ffd60a4)
-![Screenshot 2025-06-03 234847](https://github.com/user-attachments/assets/b6c527a0-a615-4c5e-9353-e8eb081e7a3a)
-![Screenshot 2025-06-03 015205](https://github.com/user-attachments/assets/314af03b-03ba-4e68-b7cc-1c7fc8e5dd07)
-![Screenshot 2025-06-03 015211](https://github.com/user-attachments/assets/c5b7c42c-9481-4a58-b1d9-cd29be67f356)
-![Screenshot 2025-06-03 234653](https://github.com/user-attachments/assets/719a7414-c2bb-462c-849e-f0c6cbb04566)
-![Screenshot 2025-06-03 234720](https://github.com/user-attachments/assets/ca932b96-aeb3-4501-8d1f-1cc9b11210b9)
-![Screenshot 2025-06-03 234733](https://github.com/user-attachments/assets/cf7a8730-66c7-4e23-ab30-932455629f10)
-![Screenshot 2025-06-03 234817](https://github.com/user-attachments/assets/948a201a-3a34-4d45-8b7a-600683abb068)
-![image](https://github.com/user-attachments/assets/1e1f836e-3c52-48cb-890d-3ef0995f674a)
-![image](https://github.com/user-attachments/assets/a496a148-6ee1-452b-a79c-2b5ab0a0d38a)
-![image](https://github.com/user-attachments/assets/a94cc949-6672-4f09-801f-1adb7d3a3b24)
 
 
 
