@@ -46,7 +46,7 @@ Coinnect is a secure and scalable full-stack cryptocurrency trading platform tha
 - **MySQL** – Relational database
 - **Spring Security** – Authentication & authorization
 - **Java Mail Sender** – Email-based OTP and password recovery
-- **REST APIs** – Gemini & CoinGecko integrations
+- **REST APIs** – CoinGecko integrations
 
 ### 💳 Payment Gateways
 - **Razorpay**
